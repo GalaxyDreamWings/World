@@ -1,7 +1,8 @@
 name: 📚 Documentation
 description: Report an issue related to https://pytorch.org/docs/stable/index.html
-
+labels: ["documentation"]
 body:
+- type: textarea
   attributes:
     label: 📚 The doc issue
     description: >

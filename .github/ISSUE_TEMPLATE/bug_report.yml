@@ -2,14 +2,10 @@ name: 🐛 Bug Report
 description: Create a report to help us reproduce and fix the bug
 labels: ["triage"]
 body:
-- type: markdown
-  attributes:
-    value: >
-      #### Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/pytorch/pytorch/issues?q=is%3Aissue+sort%3Acreated-desc+).
 - type: checkboxes
   attributes:
     label: Is there an already existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    description: Before submitting a bug, please make sure the issue hasn't been already addressed by searching through [the existing and past issues](https://github.com/GalaxyDreamWings/World/issues?q=is%3Aissue%20sort%3Acreated-desc).
     options:
     - label: I have searched the existing issues
       required: true

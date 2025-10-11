@@ -61,12 +61,12 @@ body:
   validations:
     required: true
 - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: A concise description of what is expected to happen. Please include references, if applicable, to the Fast DDS documentation/DDS specification where the expected behavior is established.
-    validations:
-      required: true
+  id: expected-behavior
+  attributes:
+    label: Expected behavior
+    description: A concise description of what is expected to happen. Please include references, if applicable, to the Fast DDS documentation/DDS specification where the expected behavior is established.
+  validations:
+    required: true
 - type: textarea
   id: current-behavior
   attributes:
